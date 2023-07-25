@@ -93,9 +93,8 @@ def calculate_result(x: int, y: int, operator: str) -> int:
         case "*":
             return x * y
         case "/":
-            return round(x // y)
+            return x // y
 
 
 if __name__ == "__main__":
     main()
-  
